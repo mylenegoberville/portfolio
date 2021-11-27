@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Profil de Mylène GOBERVILLE</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light fond" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <img class="img-cercle" src="01.jpg"  alt="ma photo de profil" />
+                <a class="navbar-brand" href="#" style="color:white">Mylène GOBERVILLE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color:white">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="competencetechnique.html" style="color:white">Compétences techniques</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mesrealisations.html" style="color:white">Mes Réalisations</a>
+            </li>
+        </ul>
+    </div>
+    <form action="mailto:mylenegoberville@gmail.com" method="post" name="contact">
+        <button class="cont btn btn-opaque">Me contacter </button></form>
+    <?php
+					$destinataire="mylenegoberville@gmail.com";
+					mail($destinataire);
+		?>
+</nav>
+
+
+<div id="presentation">
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="image/index/ciel.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div style="text-align: center;">
+                        <div class="container">
+                            Etudiante, en informatique orientée développement, je suis à la recherche d'une entreprise pour mon alternance avec un rythme
+                            d'une semaine/trois semaines en entreprise.<br /> J'aime l'histoire pour savoir d'où est partie l'humanité et ce qu'il
+                            s'est passé dans les époques antérieures.<br /> Mais aussi regarder les étoiles pour découvrir ce qu'y a en dehors de notre univers.<br />
+                            De plus à côté je fais du cosplay c'est-à-dire s'habiller et rentrer dans la peau du personnage qu'on imite.<br /><br />
+
+                            Je vous met à dispostition mon <a href="CV.pdf">CV  (PDF)</a> <button ><a href="CV.pdf" download  ><span>télécharger </span></a></button>
+                            et ma
+                            <a href="LM.pdf">Lettre de Motivation  (PDF)</a> <button ><a href="LM.pdf" download  ><span>télécharger </span></a></button>
+                        </div></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/index/cosplay.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div style="text-align: center;">
+                        <div class="container">
+                            Etudiante, en informatique orientée développement, je suis à la recherche d'une entreprise pour mon alternance avec un rythme
+                            d'une semaine/trois semaines en entreprise.<br /> J'aime l'histoire pour savoir d'où est partie l'humanité et ce qu'il
+                            s'est passé dans les époques antérieures.<br /> Mais aussi regarder les étoiles pour découvrir ce qu'y a en dehors de notre univers.<br />
+                            De plus à côté je fais du cosplay c'est-à-dire s'habiller et rentrer dans la peau du personnage qu'on imite.<br /><br />
+
+                            Je vous met à dispostition mon <a href="CV.pdf">CV  (PDF)</a> <button ><a href="CV.pdf" download  ><span>télécharger </span></a></button>
+                            et ma
+                            <a href="LM.pdf">Lettre de Motivation  (PDF)</a> <button ><a href="LM.pdf" download  ><span>télécharger </span></a></button>
+                        </div></div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="image/index/histoire.jpg" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <div style="text-align: center;">
+                        <div class="container">
+                            Etudiante, en informatique orientée développement, je suis à la recherche d'une entreprise pour mon alternance avec un rythme
+                            d'une semaine/trois semaines en entreprise.<br /> J'aime l'histoire pour savoir d'où est partie l'humanité et ce qu'il
+                            s'est passé dans les époques antérieures.<br /> Mais aussi regarder les étoiles pour découvrir ce qu'y a en dehors de notre univers.<br />
+                            De plus à côté je fais du cosplay c'est-à-dire s'habiller et rentrer dans la peau du personnage qu'on imite.<br /><br />
+
+                            Je vous met à dispostition mon <a href="CV.pdf">CV  (PDF)</a> <button ><a href="CV.pdf" download  ><span>télécharger </span></a></button>
+                            et ma
+                            <a href="LM.pdf">Lettre de Motivation  (PDF)</a> <button ><a href="LM.pdf" download  ><span>télécharger </span></a></button>
+                        </div></div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+</div>
+
+</div>
+
+
+<div class="footer-copyright text-center  footer">©Copyright- Tous droits réservé</div>
+</body>
+</html>

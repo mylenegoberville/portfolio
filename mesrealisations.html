@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Profil de Mylène GOBERVILLE</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light fond" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon menu"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item">
+                <img class="img-cercle" src="01.jpg"  alt="ma photo de profil" />
+                <a class="navbar-brand" href="#" style="color:white">Mylène GOBERVILLE</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="index.html" style="color:white">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="competencetechnique.html" style="color:white">Compétences techniques</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="mesrealisations.html" style="color:white">Mes Réalisations</a>
+            </li>
+        </ul>
+    </div>
+    <form action="mailto:mylenegoberville@gmail.com" method="post" name="contact">
+        <button class="cont btn btn-opaque">Me contacter </button></form>
+    <?php
+					$destinataire="mylenegoberville@gmail.com";
+					mail($destinataire);
+		?>
+</nav>
+<div class="container">
+    <div style="text-align: center;">
+        <a href="#image1" class="trigger collapsed" data-toggle="collapse" data-target="#image1" aria-expanded="false" aria-controls="collapse">
+            <img src="image/seriousgame/hrlogo.jpg" style="width: 250px; height: 250px;"></a>
+        <a href="#image2" class="trigger collapsed" data-toggle="collapse" data-target="#image2" aria-expanded="false" aria-controls="collapse">
+            <img src="image/stage1/docapost.png" style="width: 250px; height: 250px;"></a>
+        <a href="#image3" class="trigger collapsed" data-toggle="collapse" data-target="#image3" aria-expanded="false" aria-controls="collapse">
+            <img src="image/projet/logo.png" style="width: 280px; height: 230px;"></a>
+        <a href="#image4" class="trigger collapsed" data-toggle="collapse" data-target="#image4" aria-expanded="false" aria-controls="collapse">
+            <img src="image/stage2/logo.png" style="width: 230px; height: 230px;"></a>
+
+        <div id="image1" class="collapse">
+            <div class="jumbotron">
+                <h2>HeatRaser</h2>
+                <br>
+                <p>
+                    Durant le seriousgame, nous avons créé une entreprise qui vend une gomme effacable par chaleur avec un stylo dont l'encre s'efface grâce à notre gomme.
+                    Pour la création du site, j'ai surtout fait la partie du panier sans le paiement car on n'avait pas l'autorisation des banques.<br>
+                    <u>lien vers le site </u>: <a href="http://heatraser.alwaysdata.net">heatraser.fr</a><br>
+                    <u>lien le github </u>: <a href="https://github.com/mylenegoberville/heatraser">mylenegoberville/heatraser</a><br>
+                    <u>Langages utilisées</u> : PHP / HTML / CSS / SQL
+                </p>
+            </div>
+        </div>
+
+        <div id="image2" class="collapse" style="">
+            <div class="jumbotron">
+                <h2>Docaposte</h2>
+                <br>
+                <p>
+                    Lors de mon stage, on m'a présenté deux sites qui permettent le partage de plusieurs fichiers d'un même projet en gardant les versions antérieures.
+                    Ensuite on m'a demandé de mettre à jour les lignes de code mysqli et d'installer myVIS.<br>
+                    <u>Langages utilisées</u> : PHP / MySQLI
+                </p>
+            </div>
+        </div>
+
+        <div id="image3" class="collapse">
+            <div class="jumbotron">
+                <h2>Carpooling</h2>
+                <br>
+                <p>
+                    Création d'un site web pour faire du covoiturage entre étudiant et enseignant en sein du BTS.
+                    Ensuite le deuxième projet qui constribue au premier, est fait sous visual studio.<br>
+                    <u>lien vers le site </u>: <a href="http://covoiturage.alwaysdata.net/">covoiturage</a><br>
+                    <u>lien le github</u>: <a href="https://github.com/mylenegoberville/projetcovoiturage">mylenegoberville/projetcovoiturage</a><br>
+                    <u>Langages utilisées</u> : PHP / HTML / CSS / Bootstrap / SQL / JavaScript
+                </p>
+            </div>
+        </div>
+
+        <div id="image4" class="collapse">
+            <div class="jumbotron">
+                <h2>Stage à Moret sur loing</h2>
+                <br>
+                <p>
+                    C'est un stage à la mairie d'Ecuelles pour règler des bugs et créer de nouvelles fonctionnalités sur une application de location de salles entre les 5 villes
+                    qui forment une communauté d'agglomération Moret-Loing-et-Orvanne.
+                    Nous avons du mon camarade et moi règler des problèmes d'affichage mais aussi créer une page de facturation.
+                    La création d'une page facturation et pour pouvoir rajouter des tarif pour des particuliers ou des associations
+                    L'ajout de page pour gérer les salles par villes avec les adresses.<br>
+                    <u>lien github </u>: <a href="https://github.com/mylenegoberville/siteMairie">mylenegoberville/siteMairie</a><br>
+                    <u>Langages utilisées</u> : PHP / HTML / CSS / SQL
+                </p>
+            </div>
+        </div>
+
+        <a href="#image5" class="trigger collapsed" data-toggle="collapse" data-target="#image5" aria-expanded="false" aria-controls="collapse">
+            <img src="image/portfolio.jpg" style="width: 250px; height: 250px;"></a>
+
+        <div id="image5" class="collapse">
+            <div class="jumbotron">
+                <h2>Mon Portfolio</h2>
+                <br>
+                <p>
+                    Création de mon site personnel où je me présente ainsi que mes compétences avec mes réalisations.<br>
+                    <u>lien github </u>: <a href="http://mylene-goberville.alwaysdata.net/">Portfolio</a><br>
+                    <u>Niveau de maîtrise</u> : Elevé
+                </p>
+            </div>
+        </div>
+
+<script>
+    //Si l'utilisateur clique sur une des images (HTML5, CSS3...) -> correspond à la partie : "   $('.container a').click(function ()   "
+    //Cela active la fonction ".collapse" qui a pour attribut "hide". Cette fonction est lié à une variable : "image".$i
+    //Cela siginifie que lorsqu'un utilisateur appuie sur n'importe quelle image (HTML5, CSS3...) alors il ferme celle sur laquelle l'utilisateur était.
+    $('.container a').click(function () { $("#image1").collapse("hide") });
+    $('.container a').click(function () { $("#image2").collapse("hide") });
+    $('.container a').click(function () { $("#image3").collapse("hide") });
+    $('.container a').click(function () { $("#image4").collapse("hide") });
+    $('.container a').click(function () { $("#image5").collapse("hide") });
+    $('.container a').click(function () { $("#image6").collapse("hide") });
+    $('.container a').click(function () { $("#image7").collapse("hide") });
+</script>
+<div class="footer-copyright text-center  footer">©Copyright- Tous droits réservé</div>
+</body>
+</html>
